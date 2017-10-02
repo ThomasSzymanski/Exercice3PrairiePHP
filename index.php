@@ -1,8 +1,8 @@
 <?php
-$nombre = -1;
-while ($nombre <= 297)
-{
-    $nombre = $nombre + 2;
-    echo $nombre;
+for ($number = 0; $number < 300; $number++){
+
+  if ($number % 2 == 1){
+    echo $number . ' ';
+  }
 }
  ?>
